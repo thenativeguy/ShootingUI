@@ -2,7 +2,7 @@ import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 import TextOutline from './TextOutline';
 import LinearGradient from 'react-native-linear-gradient';
-import { LAYOUT } from '../../layout';
+import {LAYOUT} from '../../layout';
 
 const PointsTable = ({points, team, title}) => {
   return (
@@ -10,7 +10,14 @@ const PointsTable = ({points, team, title}) => {
       <Text style={styles.playerNameTextStyle}>{team}</Text>
       <View style={styles.avatarView}>
         <View style={styles.pointsTextStyle}>
-         <Text style={{fontFamily:LAYOUT.FONTS.BOLD,fontSize:50, color:'#fff'}}>{title}</Text>
+          <Text
+            style={{
+              fontFamily: LAYOUT.FONTS.BOLD,
+              fontSize: 30,
+              color: '#fff',
+            }}>
+            {title}
+          </Text>
         </View>
         <Text style={styles.teamTextStyle}>{points}</Text>
       </View>
@@ -30,8 +37,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: LAYOUT.WIDTH * 0.025,
     borderWidth: 2,
     borderColor: LAYOUT.COLORS.POINTS_TABLE_BORDER,
-    borderRadius:25,
-    // shadowColor: LAYOUT.COLORS.BORDER_SHADOW,
+    borderRadius: 25,
     shadowOffset: {
       width: 20,
       height: 20,
@@ -50,9 +56,9 @@ const styles = StyleSheet.create({
     borderWidth: 3,
     borderColor: LAYOUT.COLORS.POINTS_SCORE_BORDER,
     backgroundColor: LAYOUT.COLORS.POINTS_SCORE,
-    borderRadius:50,
-    paddingHorizontal:10,
-    paddingVertical:5
+    borderRadius: 55,
+    paddingHorizontal: 15,
+    paddingVertical: 4,
   },
   pointsTextBackground: {
     width: LAYOUT.WIDTH * 0.2,
@@ -61,12 +67,12 @@ const styles = StyleSheet.create({
   },
   playerNameTextStyle: {
     color: LAYOUT.COLORS.TEAM_NAME_COLOR,
-    fontFamily: LAYOUT.FONTS.SEMI_BOLD,
-    fontSize: 24,
+    fontFamily: LAYOUT.FONTS.REGULAR,
+    fontSize: 16,
   },
   teamTextStyle: {
     color: '#fff',
-    fontFamily: LAYOUT.FONTS.SEMI_BOLD,
-    fontSize: 20,
+    fontFamily: LAYOUT.FONTS.REGULAR,
+    fontSize: 16,
   },
 });

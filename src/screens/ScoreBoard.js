@@ -79,12 +79,12 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     color: '#fff',
-    fontFamily: LAYOUT.FONTS.SEMI_BOLD,
+    fontFamily: LAYOUT.FONTS.BOLD,
     fontSize: 50,
   },
   teamTextStyle: {
     color: '#fff',
-    fontFamily: LAYOUT.FONTS.SEMI_BOLD,
+    fontFamily: LAYOUT.FONTS.BOLD,
     fontSize: 26,
   },
   footerView: {

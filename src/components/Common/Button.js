@@ -71,7 +71,7 @@ const Button = ({
             paddingVertical: 10,
             borderWidth: 2,
             borderColor: '#2E467D',
-            borderRadius:25,
+            borderRadius:50,
           }}>
           <View
             style={{
@@ -87,15 +87,15 @@ const Button = ({
         <Text
           style={{
             backgroundColor: '#001E3E',
-            color: '#7BE0FE',
+            color: '#FFF',
             borderWidth: 2,
             borderColor: LAYOUT.COLORS.SECONDARY_BUTTON_BORDER,
             marginVertical: 2,
             paddingVertical: 12,
             textAlign: 'center',
-            fontFamily: LAYOUT.FONTS.SEMI_BOLD,
-            fontSize: 22,
-            borderRadius:25,
+            fontFamily: LAYOUT.FONTS.BOLD,
+            fontSize: 20,
+            borderRadius:50,
           }}>
           {title}
         </Text>
@@ -112,16 +112,16 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     marginVertical: 2,
     marginHorizontal: 2,
-    // color: LAYOUT.COLORS.LOGIN_BTN.BORDER_COLOR,
-    fontFamily: LAYOUT.FONTS.SEMI_BOLD,
-    fontSize: 22,
+    color: '#323246',
+    fontFamily: LAYOUT.FONTS.BOLD,
+    fontSize: 20,
   },
   finishBtnText: {
     alignSelf: 'center',
     marginVertical: 2,
     marginHorizontal: 2,
     color: '#fff',
-    fontFamily: LAYOUT.FONTS.SEMI_BOLD,
-    fontSize: 22,
+    fontFamily: LAYOUT.FONTS.BOLD,
+    fontSize: 20,
   },
 });

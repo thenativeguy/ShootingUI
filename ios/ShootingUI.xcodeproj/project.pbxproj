@@ -28,6 +28,8 @@
 		1EACDB5BC0BF45B2AB666879 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E16B2F142A34FF7A6B71380 /* Octicons.ttf */; };
 		C79412AAD2B54F03B512C792 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7891E91B6AD4345A3FFA996 /* SimpleLineIcons.ttf */; };
 		4716DBE77A3D4CC6A69B8B9B /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 592AE8CA17564F5D9BA5C873 /* Zocial.ttf */; };
+		23468383ECE14D7DA7F7C373 /* RedRose-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7C2E2398D8746F4AE82CD04 /* RedRose-Bold.ttf */; };
+		DBD1A9082DB14B4A843C1883 /* RedRose-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D63ED7F3E014689AA358364 /* RedRose-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		9E16B2F142A34FF7A6B71380 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E7891E91B6AD4345A3FFA996 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		592AE8CA17564F5D9BA5C873 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7C2E2398D8746F4AE82CD04 /* RedRose-Bold.ttf */ = {isa = PBXFileReference; name = "RedRose-Bold.ttf"; path = "../src/assets/fonts/RedRose-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D63ED7F3E014689AA358364 /* RedRose-Regular.ttf */ = {isa = PBXFileReference; name = "RedRose-Regular.ttf"; path = "../src/assets/fonts/RedRose-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				9E16B2F142A34FF7A6B71380 /* Octicons.ttf */,
 				E7891E91B6AD4345A3FFA996 /* SimpleLineIcons.ttf */,
 				592AE8CA17564F5D9BA5C873 /* Zocial.ttf */,
+				F7C2E2398D8746F4AE82CD04 /* RedRose-Bold.ttf */,
+				8D63ED7F3E014689AA358364 /* RedRose-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -287,6 +293,8 @@
 				1EACDB5BC0BF45B2AB666879 /* Octicons.ttf in Resources */,
 				C79412AAD2B54F03B512C792 /* SimpleLineIcons.ttf in Resources */,
 				4716DBE77A3D4CC6A69B8B9B /* Zocial.ttf in Resources */,
+				23468383ECE14D7DA7F7C373 /* RedRose-Bold.ttf in Resources */,
+				DBD1A9082DB14B4A843C1883 /* RedRose-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

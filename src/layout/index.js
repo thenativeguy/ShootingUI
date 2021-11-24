@@ -6,9 +6,8 @@ const HEIGHT = Dimensions.get('window').height;
 const PADDING_HORIZONTAL = WIDTH * 0.04;
 
 const FONTS = {
-  REGULAR: 'Rajdhani-Regular',
-  SEMI_BOLD: 'Rajdhani-SemiBold',
-  BOLD: 'Rajdhani-Bold',
+  REGULAR: 'RedRose-Regular',
+  BOLD: 'RedRose-Bold',
 };
 
 const COLORS = {
